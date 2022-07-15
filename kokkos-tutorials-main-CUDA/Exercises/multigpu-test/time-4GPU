@@ -1,0 +1,90 @@
+Hey I am here
+Allocating memory (8320 bytes) in GPU
+Hey I am here
+Allocating memory (65664 bytes) in GPU
+Hey I am here
+Allocating memory (20612 bytes) in GPU
+running allocate tracker
+Hey I am here
+Allocating memory (512000128 bytes) in GPU
+running allocate tracker
+Hey I am here
+Allocating memory (512000128 bytes) in GPU
+running allocate tracked multi dev
+Num devices = 4 = 4
+time single gpu ( 3.340000e-03 s )
+time single gpu ( 3.291000e-03 s )
+time single gpu ( 3.289000e-03 s )
+time single gpu ( 3.290000e-03 s )
+time single gpu ( 3.290000e-03 s )
+time single gpu ( 3.289000e-03 s )
+time single gpu ( 3.290000e-03 s )
+time single gpu ( 3.289000e-03 s )
+time single gpu ( 3.289000e-03 s )
+time single gpu ( 3.289000e-03 s )
+time single gpu ( 3.288000e-03 s )
+time single gpu ( 3.289000e-03 s )
+time single gpu ( 3.289000e-03 s )
+time single gpu ( 3.288000e-03 s )
+time single gpu ( 3.289000e-03 s )
+time single gpu ( 3.290000e-03 s )
+time single gpu ( 3.290000e-03 s )
+time single gpu ( 3.288000e-03 s )
+time single gpu ( 3.290000e-03 s )
+time single gpu ( 3.288000e-03 s )
+time gpu ( 2.100000e-04 s )
+time multi gpu ( 2.180000e-04 s )
+time gpu ( 1.740000e-04 s )
+time multi gpu ( 1.820000e-04 s )
+time gpu ( 1.740000e-04 s )
+time multi gpu ( 1.810000e-04 s )
+time gpu ( 1.740000e-04 s )
+time multi gpu ( 1.810000e-04 s )
+time gpu ( 1.710000e-04 s )
+time multi gpu ( 1.770000e-04 s )
+time gpu ( 1.730000e-04 s )
+time multi gpu ( 1.800000e-04 s )
+time gpu ( 1.720000e-04 s )
+time multi gpu ( 1.800000e-04 s )
+time gpu ( 1.720000e-04 s )
+time multi gpu ( 1.790000e-04 s )
+time gpu ( 1.720000e-04 s )
+time multi gpu ( 1.780000e-04 s )
+time gpu ( 1.710000e-04 s )
+time multi gpu ( 1.780000e-04 s )
+time gpu ( 1.720000e-04 s )
+time multi gpu ( 1.800000e-04 s )
+time gpu ( 1.710000e-04 s )
+time multi gpu ( 1.780000e-04 s )
+time gpu ( 1.760000e-04 s )
+time multi gpu ( 1.830000e-04 s )
+time gpu ( 1.750000e-04 s )
+time multi gpu ( 1.820000e-04 s )
+time gpu ( 1.710000e-04 s )
+time multi gpu ( 1.790000e-04 s )
+time gpu ( 1.740000e-04 s )
+time multi gpu ( 1.810000e-04 s )
+time gpu ( 1.720000e-04 s )
+time multi gpu ( 1.780000e-04 s )
+time gpu ( 1.710000e-04 s )
+time multi gpu ( 1.780000e-04 s )
+time gpu ( 1.720000e-04 s )
+time multi gpu ( 1.840000e-04 s )
+time gpu ( 1.750000e-04 s )
+time multi gpu ( 1.870000e-04 s )
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 1109010: <CFD136Pedro> in cluster <summit> Done
+
+Job <CFD136Pedro> was submitted from host <login1> by user <pvalero> in cluster <summit> at Thu Jun 24 14:15:32 2021
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <pvalero> in cluster <summit> at Thu Jun 24 14:15:56 2021
+                            <42*h50n04>
+</ccs/home/pvalero> was used as the home directory.
+</ccs/home/pvalero/kokkos-multigpu-backend/kokkos-tutorials-main/Exercises/multigpu-test> was used as the working directory.
+Started at Thu Jun 24 14:15:56 2021
+Terminated at Thu Jun 24 14:16:14 2021
+Results reported at Thu Jun 24 14:16:14 2021
+
+The output (if any) is above this job summary.
+

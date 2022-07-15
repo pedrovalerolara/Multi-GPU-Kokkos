@@ -1,0 +1,1226 @@
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Hi het index 3
+Hi het index 2
+Index = 300
+Hello from Parallel from het 1
+Using omp taget parallel for
+Last iter = 5000000
+Indexx = 300
+Hey I am the OpenMP thread = 0 running
+Hey I am the OpenMP thread = 1 running
+Hi het auto 3
+Hi het auto 2
+secs to transfer = 3.333333e-02
+secs to compute on CPU = 1.860119e-02
+secs to compute on GPU = 2.127660e-03
+i = 0
+CPU computes = 0 iterations and GPU computes = 20000 iterations
+--Expected CPU time = 0.000000e+00 s
+--Expected GPU time = 2.553191e-04 s
+--Expected CPU-GPU trasnfer time = 2.133333e-02 s
+--Expected total time = 2.158865e-02 s
+i = 100
+CPU computes = 100 iterations and GPU computes = 19900 iterations
+--Expected CPU time = 1.116071e-05 s
+--Expected GPU time = 2.540426e-04 s
+--Expected CPU-GPU trasnfer time = 2.122667e-02 s
+--Expected total time = 2.149187e-02 s
+i = 200
+CPU computes = 200 iterations and GPU computes = 19800 iterations
+--Expected CPU time = 2.232143e-05 s
+--Expected GPU time = 2.527660e-04 s
+--Expected CPU-GPU trasnfer time = 2.112000e-02 s
+--Expected total time = 2.139509e-02 s
+i = 300
+CPU computes = 300 iterations and GPU computes = 19700 iterations
+--Expected CPU time = 3.348214e-05 s
+--Expected GPU time = 2.514894e-04 s
+--Expected CPU-GPU trasnfer time = 2.101333e-02 s
+--Expected total time = 2.129830e-02 s
+i = 400
+CPU computes = 400 iterations and GPU computes = 19600 iterations
+--Expected CPU time = 4.464286e-05 s
+--Expected GPU time = 2.502128e-04 s
+--Expected CPU-GPU trasnfer time = 2.090667e-02 s
+--Expected total time = 2.120152e-02 s
+i = 500
+CPU computes = 500 iterations and GPU computes = 19500 iterations
+--Expected CPU time = 5.580357e-05 s
+--Expected GPU time = 2.489362e-04 s
+--Expected CPU-GPU trasnfer time = 2.080000e-02 s
+--Expected total time = 2.110474e-02 s
+i = 600
+CPU computes = 600 iterations and GPU computes = 19400 iterations
+--Expected CPU time = 6.696429e-05 s
+--Expected GPU time = 2.476596e-04 s
+--Expected CPU-GPU trasnfer time = 2.069333e-02 s
+--Expected total time = 2.100796e-02 s
+i = 700
+CPU computes = 700 iterations and GPU computes = 19300 iterations
+--Expected CPU time = 7.812500e-05 s
+--Expected GPU time = 2.463830e-04 s
+--Expected CPU-GPU trasnfer time = 2.058667e-02 s
+--Expected total time = 2.091117e-02 s
+i = 800
+CPU computes = 800 iterations and GPU computes = 19200 iterations
+--Expected CPU time = 8.928571e-05 s
+--Expected GPU time = 2.451064e-04 s
+--Expected CPU-GPU trasnfer time = 2.048000e-02 s
+--Expected total time = 2.081439e-02 s
+i = 900
+CPU computes = 900 iterations and GPU computes = 19100 iterations
+--Expected CPU time = 1.004464e-04 s
+--Expected GPU time = 2.438298e-04 s
+--Expected CPU-GPU trasnfer time = 2.037333e-02 s
+--Expected total time = 2.071761e-02 s
+i = 1000
+CPU computes = 1000 iterations and GPU computes = 19000 iterations
+--Expected CPU time = 1.116071e-04 s
+--Expected GPU time = 2.425532e-04 s
+--Expected CPU-GPU trasnfer time = 2.026667e-02 s
+--Expected total time = 2.062083e-02 s
+i = 1100
+CPU computes = 1100 iterations and GPU computes = 18900 iterations
+--Expected CPU time = 1.227679e-04 s
+--Expected GPU time = 2.412766e-04 s
+--Expected CPU-GPU trasnfer time = 2.016000e-02 s
+--Expected total time = 2.052404e-02 s
+i = 1200
+CPU computes = 1200 iterations and GPU computes = 18800 iterations
+--Expected CPU time = 1.339286e-04 s
+--Expected GPU time = 2.400000e-04 s
+--Expected CPU-GPU trasnfer time = 2.005333e-02 s
+--Expected total time = 2.042726e-02 s
+i = 1300
+CPU computes = 1300 iterations and GPU computes = 18700 iterations
+--Expected CPU time = 1.450893e-04 s
+--Expected GPU time = 2.387234e-04 s
+--Expected CPU-GPU trasnfer time = 1.994667e-02 s
+--Expected total time = 2.033048e-02 s
+i = 1400
+CPU computes = 1400 iterations and GPU computes = 18600 iterations
+--Expected CPU time = 1.562500e-04 s
+--Expected GPU time = 2.374468e-04 s
+--Expected CPU-GPU trasnfer time = 1.984000e-02 s
+--Expected total time = 2.023370e-02 s
+i = 1500
+CPU computes = 1500 iterations and GPU computes = 18500 iterations
+--Expected CPU time = 1.674107e-04 s
+--Expected GPU time = 2.361702e-04 s
+--Expected CPU-GPU trasnfer time = 1.973333e-02 s
+--Expected total time = 2.013691e-02 s
+i = 1600
+CPU computes = 1600 iterations and GPU computes = 18400 iterations
+--Expected CPU time = 1.785714e-04 s
+--Expected GPU time = 2.348936e-04 s
+--Expected CPU-GPU trasnfer time = 1.962667e-02 s
+--Expected total time = 2.004013e-02 s
+i = 1700
+CPU computes = 1700 iterations and GPU computes = 18300 iterations
+--Expected CPU time = 1.897321e-04 s
+--Expected GPU time = 2.336170e-04 s
+--Expected CPU-GPU trasnfer time = 1.952000e-02 s
+--Expected total time = 1.994335e-02 s
+i = 1800
+CPU computes = 1800 iterations and GPU computes = 18200 iterations
+--Expected CPU time = 2.008929e-04 s
+--Expected GPU time = 2.323404e-04 s
+--Expected CPU-GPU trasnfer time = 1.941333e-02 s
+--Expected total time = 1.984657e-02 s
+i = 1900
+CPU computes = 1900 iterations and GPU computes = 18100 iterations
+--Expected CPU time = 2.120536e-04 s
+--Expected GPU time = 2.310638e-04 s
+--Expected CPU-GPU trasnfer time = 1.930667e-02 s
+--Expected total time = 1.974978e-02 s
+i = 2000
+CPU computes = 2000 iterations and GPU computes = 18000 iterations
+--Expected CPU time = 2.232143e-04 s
+--Expected GPU time = 2.297872e-04 s
+--Expected CPU-GPU trasnfer time = 1.920000e-02 s
+--Expected total time = 1.965300e-02 s
+i = 2100
+CPU computes = 2100 iterations and GPU computes = 17900 iterations
+--Expected CPU time = 2.343750e-04 s
+--Expected GPU time = 2.285106e-04 s
+--Expected CPU-GPU trasnfer time = 1.909333e-02 s
+--Expected total time = 1.955622e-02 s
+i = 2200
+CPU computes = 2200 iterations and GPU computes = 17800 iterations
+--Expected CPU time = 2.455357e-04 s
+--Expected GPU time = 2.272340e-04 s
+--Expected CPU-GPU trasnfer time = 1.898667e-02 s
+--Expected total time = 1.945944e-02 s
+i = 2300
+CPU computes = 2300 iterations and GPU computes = 17700 iterations
+--Expected CPU time = 2.566964e-04 s
+--Expected GPU time = 2.259574e-04 s
+--Expected CPU-GPU trasnfer time = 1.888000e-02 s
+--Expected total time = 1.936265e-02 s
+i = 2400
+CPU computes = 2400 iterations and GPU computes = 17600 iterations
+--Expected CPU time = 2.678571e-04 s
+--Expected GPU time = 2.246809e-04 s
+--Expected CPU-GPU trasnfer time = 1.877333e-02 s
+--Expected total time = 1.926587e-02 s
+i = 2500
+CPU computes = 2500 iterations and GPU computes = 17500 iterations
+--Expected CPU time = 2.790179e-04 s
+--Expected GPU time = 2.234043e-04 s
+--Expected CPU-GPU trasnfer time = 1.866667e-02 s
+--Expected total time = 1.916909e-02 s
+i = 2600
+CPU computes = 2600 iterations and GPU computes = 17400 iterations
+--Expected CPU time = 2.901786e-04 s
+--Expected GPU time = 2.221277e-04 s
+--Expected CPU-GPU trasnfer time = 1.856000e-02 s
+--Expected total time = 1.907231e-02 s
+i = 2700
+CPU computes = 2700 iterations and GPU computes = 17300 iterations
+--Expected CPU time = 3.013393e-04 s
+--Expected GPU time = 2.208511e-04 s
+--Expected CPU-GPU trasnfer time = 1.845333e-02 s
+--Expected total time = 1.897552e-02 s
+i = 2800
+CPU computes = 2800 iterations and GPU computes = 17200 iterations
+--Expected CPU time = 3.125000e-04 s
+--Expected GPU time = 2.195745e-04 s
+--Expected CPU-GPU trasnfer time = 1.834667e-02 s
+--Expected total time = 1.887874e-02 s
+i = 2900
+CPU computes = 2900 iterations and GPU computes = 17100 iterations
+--Expected CPU time = 3.236607e-04 s
+--Expected GPU time = 2.182979e-04 s
+--Expected CPU-GPU trasnfer time = 1.824000e-02 s
+--Expected total time = 1.878196e-02 s
+i = 3000
+CPU computes = 3000 iterations and GPU computes = 17000 iterations
+--Expected CPU time = 3.348214e-04 s
+--Expected GPU time = 2.170213e-04 s
+--Expected CPU-GPU trasnfer time = 1.813333e-02 s
+--Expected total time = 1.868518e-02 s
+i = 3100
+CPU computes = 3100 iterations and GPU computes = 16900 iterations
+--Expected CPU time = 3.459821e-04 s
+--Expected GPU time = 2.157447e-04 s
+--Expected CPU-GPU trasnfer time = 1.802667e-02 s
+--Expected total time = 1.858839e-02 s
+i = 3200
+CPU computes = 3200 iterations and GPU computes = 16800 iterations
+--Expected CPU time = 3.571429e-04 s
+--Expected GPU time = 2.144681e-04 s
+--Expected CPU-GPU trasnfer time = 1.792000e-02 s
+--Expected total time = 1.849161e-02 s
+i = 3300
+CPU computes = 3300 iterations and GPU computes = 16700 iterations
+--Expected CPU time = 3.683036e-04 s
+--Expected GPU time = 2.131915e-04 s
+--Expected CPU-GPU trasnfer time = 1.781333e-02 s
+--Expected total time = 1.839483e-02 s
+i = 3400
+CPU computes = 3400 iterations and GPU computes = 16600 iterations
+--Expected CPU time = 3.794643e-04 s
+--Expected GPU time = 2.119149e-04 s
+--Expected CPU-GPU trasnfer time = 1.770667e-02 s
+--Expected total time = 1.829805e-02 s
+i = 3500
+CPU computes = 3500 iterations and GPU computes = 16500 iterations
+--Expected CPU time = 3.906250e-04 s
+--Expected GPU time = 2.106383e-04 s
+--Expected CPU-GPU trasnfer time = 1.760000e-02 s
+--Expected total time = 1.820126e-02 s
+i = 3600
+CPU computes = 3600 iterations and GPU computes = 16400 iterations
+--Expected CPU time = 4.017857e-04 s
+--Expected GPU time = 2.093617e-04 s
+--Expected CPU-GPU trasnfer time = 1.749333e-02 s
+--Expected total time = 1.810448e-02 s
+i = 3700
+CPU computes = 3700 iterations and GPU computes = 16300 iterations
+--Expected CPU time = 4.129464e-04 s
+--Expected GPU time = 2.080851e-04 s
+--Expected CPU-GPU trasnfer time = 1.738667e-02 s
+--Expected total time = 1.800770e-02 s
+i = 3800
+CPU computes = 3800 iterations and GPU computes = 16200 iterations
+--Expected CPU time = 4.241071e-04 s
+--Expected GPU time = 2.068085e-04 s
+--Expected CPU-GPU trasnfer time = 1.728000e-02 s
+--Expected total time = 1.791092e-02 s
+i = 3900
+CPU computes = 3900 iterations and GPU computes = 16100 iterations
+--Expected CPU time = 4.352679e-04 s
+--Expected GPU time = 2.055319e-04 s
+--Expected CPU-GPU trasnfer time = 1.717333e-02 s
+--Expected total time = 1.781413e-02 s
+i = 4000
+CPU computes = 4000 iterations and GPU computes = 16000 iterations
+--Expected CPU time = 4.464286e-04 s
+--Expected GPU time = 2.042553e-04 s
+--Expected CPU-GPU trasnfer time = 1.706667e-02 s
+--Expected total time = 1.771735e-02 s
+i = 4100
+CPU computes = 4100 iterations and GPU computes = 15900 iterations
+--Expected CPU time = 4.575893e-04 s
+--Expected GPU time = 2.029787e-04 s
+--Expected CPU-GPU trasnfer time = 1.696000e-02 s
+--Expected total time = 1.762057e-02 s
+i = 4200
+CPU computes = 4200 iterations and GPU computes = 15800 iterations
+--Expected CPU time = 4.687500e-04 s
+--Expected GPU time = 2.017021e-04 s
+--Expected CPU-GPU trasnfer time = 1.685333e-02 s
+--Expected total time = 1.752379e-02 s
+i = 4300
+CPU computes = 4300 iterations and GPU computes = 15700 iterations
+--Expected CPU time = 4.799107e-04 s
+--Expected GPU time = 2.004255e-04 s
+--Expected CPU-GPU trasnfer time = 1.674667e-02 s
+--Expected total time = 1.742700e-02 s
+i = 4400
+CPU computes = 4400 iterations and GPU computes = 15600 iterations
+--Expected CPU time = 4.910714e-04 s
+--Expected GPU time = 1.991489e-04 s
+--Expected CPU-GPU trasnfer time = 1.664000e-02 s
+--Expected total time = 1.733022e-02 s
+i = 4500
+CPU computes = 4500 iterations and GPU computes = 15500 iterations
+--Expected CPU time = 5.022321e-04 s
+--Expected GPU time = 1.978723e-04 s
+--Expected CPU-GPU trasnfer time = 1.653333e-02 s
+--Expected total time = 1.723344e-02 s
+i = 4600
+CPU computes = 4600 iterations and GPU computes = 15400 iterations
+--Expected CPU time = 5.133929e-04 s
+--Expected GPU time = 1.965957e-04 s
+--Expected CPU-GPU trasnfer time = 1.642667e-02 s
+--Expected total time = 1.713666e-02 s
+i = 4700
+CPU computes = 4700 iterations and GPU computes = 15300 iterations
+--Expected CPU time = 5.245536e-04 s
+--Expected GPU time = 1.953191e-04 s
+--Expected CPU-GPU trasnfer time = 1.632000e-02 s
+--Expected total time = 1.703987e-02 s
+i = 4800
+CPU computes = 4800 iterations and GPU computes = 15200 iterations
+--Expected CPU time = 5.357143e-04 s
+--Expected GPU time = 1.940426e-04 s
+--Expected CPU-GPU trasnfer time = 1.621333e-02 s
+--Expected total time = 1.694309e-02 s
+i = 4900
+CPU computes = 4900 iterations and GPU computes = 15100 iterations
+--Expected CPU time = 5.468750e-04 s
+--Expected GPU time = 1.927660e-04 s
+--Expected CPU-GPU trasnfer time = 1.610667e-02 s
+--Expected total time = 1.684631e-02 s
+i = 5000
+CPU computes = 5000 iterations and GPU computes = 15000 iterations
+--Expected CPU time = 5.580357e-04 s
+--Expected GPU time = 1.914894e-04 s
+--Expected CPU-GPU trasnfer time = 1.600000e-02 s
+--Expected total time = 1.674953e-02 s
+i = 5100
+CPU computes = 5100 iterations and GPU computes = 14900 iterations
+--Expected CPU time = 5.691964e-04 s
+--Expected GPU time = 1.902128e-04 s
+--Expected CPU-GPU trasnfer time = 1.589333e-02 s
+--Expected total time = 1.665274e-02 s
+i = 5200
+CPU computes = 5200 iterations and GPU computes = 14800 iterations
+--Expected CPU time = 5.803571e-04 s
+--Expected GPU time = 1.889362e-04 s
+--Expected CPU-GPU trasnfer time = 1.578667e-02 s
+--Expected total time = 1.655596e-02 s
+i = 5300
+CPU computes = 5300 iterations and GPU computes = 14700 iterations
+--Expected CPU time = 5.915179e-04 s
+--Expected GPU time = 1.876596e-04 s
+--Expected CPU-GPU trasnfer time = 1.568000e-02 s
+--Expected total time = 1.645918e-02 s
+i = 5400
+CPU computes = 5400 iterations and GPU computes = 14600 iterations
+--Expected CPU time = 6.026786e-04 s
+--Expected GPU time = 1.863830e-04 s
+--Expected CPU-GPU trasnfer time = 1.557333e-02 s
+--Expected total time = 1.636239e-02 s
+i = 5500
+CPU computes = 5500 iterations and GPU computes = 14500 iterations
+--Expected CPU time = 6.138393e-04 s
+--Expected GPU time = 1.851064e-04 s
+--Expected CPU-GPU trasnfer time = 1.546667e-02 s
+--Expected total time = 1.626561e-02 s
+i = 5600
+CPU computes = 5600 iterations and GPU computes = 14400 iterations
+--Expected CPU time = 6.250000e-04 s
+--Expected GPU time = 1.838298e-04 s
+--Expected CPU-GPU trasnfer time = 1.536000e-02 s
+--Expected total time = 1.616883e-02 s
+i = 5700
+CPU computes = 5700 iterations and GPU computes = 14300 iterations
+--Expected CPU time = 6.361607e-04 s
+--Expected GPU time = 1.825532e-04 s
+--Expected CPU-GPU trasnfer time = 1.525333e-02 s
+--Expected total time = 1.607205e-02 s
+i = 5800
+CPU computes = 5800 iterations and GPU computes = 14200 iterations
+--Expected CPU time = 6.473214e-04 s
+--Expected GPU time = 1.812766e-04 s
+--Expected CPU-GPU trasnfer time = 1.514667e-02 s
+--Expected total time = 1.597526e-02 s
+i = 5900
+CPU computes = 5900 iterations and GPU computes = 14100 iterations
+--Expected CPU time = 6.584821e-04 s
+--Expected GPU time = 1.800000e-04 s
+--Expected CPU-GPU trasnfer time = 1.504000e-02 s
+--Expected total time = 1.587848e-02 s
+i = 6000
+CPU computes = 6000 iterations and GPU computes = 14000 iterations
+--Expected CPU time = 6.696429e-04 s
+--Expected GPU time = 1.787234e-04 s
+--Expected CPU-GPU trasnfer time = 1.493333e-02 s
+--Expected total time = 1.578170e-02 s
+i = 6100
+CPU computes = 6100 iterations and GPU computes = 13900 iterations
+--Expected CPU time = 6.808036e-04 s
+--Expected GPU time = 1.774468e-04 s
+--Expected CPU-GPU trasnfer time = 1.482667e-02 s
+--Expected total time = 1.568492e-02 s
+i = 6200
+CPU computes = 6200 iterations and GPU computes = 13800 iterations
+--Expected CPU time = 6.919643e-04 s
+--Expected GPU time = 1.761702e-04 s
+--Expected CPU-GPU trasnfer time = 1.472000e-02 s
+--Expected total time = 1.558813e-02 s
+i = 6300
+CPU computes = 6300 iterations and GPU computes = 13700 iterations
+--Expected CPU time = 7.031250e-04 s
+--Expected GPU time = 1.748936e-04 s
+--Expected CPU-GPU trasnfer time = 1.461333e-02 s
+--Expected total time = 1.549135e-02 s
+i = 6400
+CPU computes = 6400 iterations and GPU computes = 13600 iterations
+--Expected CPU time = 7.142857e-04 s
+--Expected GPU time = 1.736170e-04 s
+--Expected CPU-GPU trasnfer time = 1.450667e-02 s
+--Expected total time = 1.539457e-02 s
+i = 6500
+CPU computes = 6500 iterations and GPU computes = 13500 iterations
+--Expected CPU time = 7.254464e-04 s
+--Expected GPU time = 1.723404e-04 s
+--Expected CPU-GPU trasnfer time = 1.440000e-02 s
+--Expected total time = 1.529779e-02 s
+i = 6600
+CPU computes = 6600 iterations and GPU computes = 13400 iterations
+--Expected CPU time = 7.366071e-04 s
+--Expected GPU time = 1.710638e-04 s
+--Expected CPU-GPU trasnfer time = 1.429333e-02 s
+--Expected total time = 1.520100e-02 s
+i = 6700
+CPU computes = 6700 iterations and GPU computes = 13300 iterations
+--Expected CPU time = 7.477679e-04 s
+--Expected GPU time = 1.697872e-04 s
+--Expected CPU-GPU trasnfer time = 1.418667e-02 s
+--Expected total time = 1.510422e-02 s
+i = 6800
+CPU computes = 6800 iterations and GPU computes = 13200 iterations
+--Expected CPU time = 7.589286e-04 s
+--Expected GPU time = 1.685106e-04 s
+--Expected CPU-GPU trasnfer time = 1.408000e-02 s
+--Expected total time = 1.500744e-02 s
+i = 6900
+CPU computes = 6900 iterations and GPU computes = 13100 iterations
+--Expected CPU time = 7.700893e-04 s
+--Expected GPU time = 1.672340e-04 s
+--Expected CPU-GPU trasnfer time = 1.397333e-02 s
+--Expected total time = 1.491066e-02 s
+i = 7000
+CPU computes = 7000 iterations and GPU computes = 13000 iterations
+--Expected CPU time = 7.812500e-04 s
+--Expected GPU time = 1.659574e-04 s
+--Expected CPU-GPU trasnfer time = 1.386667e-02 s
+--Expected total time = 1.481387e-02 s
+i = 7100
+CPU computes = 7100 iterations and GPU computes = 12900 iterations
+--Expected CPU time = 7.924107e-04 s
+--Expected GPU time = 1.646809e-04 s
+--Expected CPU-GPU trasnfer time = 1.376000e-02 s
+--Expected total time = 1.471709e-02 s
+i = 7200
+CPU computes = 7200 iterations and GPU computes = 12800 iterations
+--Expected CPU time = 8.035714e-04 s
+--Expected GPU time = 1.634043e-04 s
+--Expected CPU-GPU trasnfer time = 1.365333e-02 s
+--Expected total time = 1.462031e-02 s
+i = 7300
+CPU computes = 7300 iterations and GPU computes = 12700 iterations
+--Expected CPU time = 8.147321e-04 s
+--Expected GPU time = 1.621277e-04 s
+--Expected CPU-GPU trasnfer time = 1.354667e-02 s
+--Expected total time = 1.452353e-02 s
+i = 7400
+CPU computes = 7400 iterations and GPU computes = 12600 iterations
+--Expected CPU time = 8.258929e-04 s
+--Expected GPU time = 1.608511e-04 s
+--Expected CPU-GPU trasnfer time = 1.344000e-02 s
+--Expected total time = 1.442674e-02 s
+i = 7500
+CPU computes = 7500 iterations and GPU computes = 12500 iterations
+--Expected CPU time = 8.370536e-04 s
+--Expected GPU time = 1.595745e-04 s
+--Expected CPU-GPU trasnfer time = 1.333333e-02 s
+--Expected total time = 1.432996e-02 s
+i = 7600
+CPU computes = 7600 iterations and GPU computes = 12400 iterations
+--Expected CPU time = 8.482143e-04 s
+--Expected GPU time = 1.582979e-04 s
+--Expected CPU-GPU trasnfer time = 1.322667e-02 s
+--Expected total time = 1.423318e-02 s
+i = 7700
+CPU computes = 7700 iterations and GPU computes = 12300 iterations
+--Expected CPU time = 8.593750e-04 s
+--Expected GPU time = 1.570213e-04 s
+--Expected CPU-GPU trasnfer time = 1.312000e-02 s
+--Expected total time = 1.413640e-02 s
+i = 7800
+CPU computes = 7800 iterations and GPU computes = 12200 iterations
+--Expected CPU time = 8.705357e-04 s
+--Expected GPU time = 1.557447e-04 s
+--Expected CPU-GPU trasnfer time = 1.301333e-02 s
+--Expected total time = 1.403961e-02 s
+i = 7900
+CPU computes = 7900 iterations and GPU computes = 12100 iterations
+--Expected CPU time = 8.816964e-04 s
+--Expected GPU time = 1.544681e-04 s
+--Expected CPU-GPU trasnfer time = 1.290667e-02 s
+--Expected total time = 1.394283e-02 s
+i = 8000
+CPU computes = 8000 iterations and GPU computes = 12000 iterations
+--Expected CPU time = 8.928571e-04 s
+--Expected GPU time = 1.531915e-04 s
+--Expected CPU-GPU trasnfer time = 1.280000e-02 s
+--Expected total time = 1.384605e-02 s
+i = 8100
+CPU computes = 8100 iterations and GPU computes = 11900 iterations
+--Expected CPU time = 9.040179e-04 s
+--Expected GPU time = 1.519149e-04 s
+--Expected CPU-GPU trasnfer time = 1.269333e-02 s
+--Expected total time = 1.374927e-02 s
+i = 8200
+CPU computes = 8200 iterations and GPU computes = 11800 iterations
+--Expected CPU time = 9.151786e-04 s
+--Expected GPU time = 1.506383e-04 s
+--Expected CPU-GPU trasnfer time = 1.258667e-02 s
+--Expected total time = 1.365248e-02 s
+i = 8300
+CPU computes = 8300 iterations and GPU computes = 11700 iterations
+--Expected CPU time = 9.263393e-04 s
+--Expected GPU time = 1.493617e-04 s
+--Expected CPU-GPU trasnfer time = 1.248000e-02 s
+--Expected total time = 1.355570e-02 s
+i = 8400
+CPU computes = 8400 iterations and GPU computes = 11600 iterations
+--Expected CPU time = 9.375000e-04 s
+--Expected GPU time = 1.480851e-04 s
+--Expected CPU-GPU trasnfer time = 1.237333e-02 s
+--Expected total time = 1.345892e-02 s
+i = 8500
+CPU computes = 8500 iterations and GPU computes = 11500 iterations
+--Expected CPU time = 9.486607e-04 s
+--Expected GPU time = 1.468085e-04 s
+--Expected CPU-GPU trasnfer time = 1.226667e-02 s
+--Expected total time = 1.336214e-02 s
+i = 8600
+CPU computes = 8600 iterations and GPU computes = 11400 iterations
+--Expected CPU time = 9.598214e-04 s
+--Expected GPU time = 1.455319e-04 s
+--Expected CPU-GPU trasnfer time = 1.216000e-02 s
+--Expected total time = 1.326535e-02 s
+i = 8700
+CPU computes = 8700 iterations and GPU computes = 11300 iterations
+--Expected CPU time = 9.709821e-04 s
+--Expected GPU time = 1.442553e-04 s
+--Expected CPU-GPU trasnfer time = 1.205333e-02 s
+--Expected total time = 1.316857e-02 s
+i = 8800
+CPU computes = 8800 iterations and GPU computes = 11200 iterations
+--Expected CPU time = 9.821429e-04 s
+--Expected GPU time = 1.429787e-04 s
+--Expected CPU-GPU trasnfer time = 1.194667e-02 s
+--Expected total time = 1.307179e-02 s
+i = 8900
+CPU computes = 8900 iterations and GPU computes = 11100 iterations
+--Expected CPU time = 9.933036e-04 s
+--Expected GPU time = 1.417021e-04 s
+--Expected CPU-GPU trasnfer time = 1.184000e-02 s
+--Expected total time = 1.297501e-02 s
+i = 9000
+CPU computes = 9000 iterations and GPU computes = 11000 iterations
+--Expected CPU time = 1.004464e-03 s
+--Expected GPU time = 1.404255e-04 s
+--Expected CPU-GPU trasnfer time = 1.173333e-02 s
+--Expected total time = 1.287822e-02 s
+i = 9100
+CPU computes = 9100 iterations and GPU computes = 10900 iterations
+--Expected CPU time = 1.015625e-03 s
+--Expected GPU time = 1.391489e-04 s
+--Expected CPU-GPU trasnfer time = 1.162667e-02 s
+--Expected total time = 1.278144e-02 s
+i = 9200
+CPU computes = 9200 iterations and GPU computes = 10800 iterations
+--Expected CPU time = 1.026786e-03 s
+--Expected GPU time = 1.378723e-04 s
+--Expected CPU-GPU trasnfer time = 1.152000e-02 s
+--Expected total time = 1.268466e-02 s
+i = 9300
+CPU computes = 9300 iterations and GPU computes = 10700 iterations
+--Expected CPU time = 1.037946e-03 s
+--Expected GPU time = 1.365957e-04 s
+--Expected CPU-GPU trasnfer time = 1.141333e-02 s
+--Expected total time = 1.258788e-02 s
+i = 9400
+CPU computes = 9400 iterations and GPU computes = 10600 iterations
+--Expected CPU time = 1.049107e-03 s
+--Expected GPU time = 1.353191e-04 s
+--Expected CPU-GPU trasnfer time = 1.130667e-02 s
+--Expected total time = 1.249109e-02 s
+i = 9500
+CPU computes = 9500 iterations and GPU computes = 10500 iterations
+--Expected CPU time = 1.060268e-03 s
+--Expected GPU time = 1.340426e-04 s
+--Expected CPU-GPU trasnfer time = 1.120000e-02 s
+--Expected total time = 1.239431e-02 s
+i = 9600
+CPU computes = 9600 iterations and GPU computes = 10400 iterations
+--Expected CPU time = 1.071429e-03 s
+--Expected GPU time = 1.327660e-04 s
+--Expected CPU-GPU trasnfer time = 1.109333e-02 s
+--Expected total time = 1.229753e-02 s
+i = 9700
+CPU computes = 9700 iterations and GPU computes = 10300 iterations
+--Expected CPU time = 1.082589e-03 s
+--Expected GPU time = 1.314894e-04 s
+--Expected CPU-GPU trasnfer time = 1.098667e-02 s
+--Expected total time = 1.220075e-02 s
+i = 9800
+CPU computes = 9800 iterations and GPU computes = 10200 iterations
+--Expected CPU time = 1.093750e-03 s
+--Expected GPU time = 1.302128e-04 s
+--Expected CPU-GPU trasnfer time = 1.088000e-02 s
+--Expected total time = 1.210396e-02 s
+i = 9900
+CPU computes = 9900 iterations and GPU computes = 10100 iterations
+--Expected CPU time = 1.104911e-03 s
+--Expected GPU time = 1.289362e-04 s
+--Expected CPU-GPU trasnfer time = 1.077333e-02 s
+--Expected total time = 1.200718e-02 s
+i = 10000
+CPU computes = 10000 iterations and GPU computes = 10000 iterations
+--Expected CPU time = 1.116071e-03 s
+--Expected GPU time = 1.276596e-04 s
+--Expected CPU-GPU trasnfer time = 1.066667e-02 s
+--Expected total time = 1.191040e-02 s
+i = 10100
+CPU computes = 10100 iterations and GPU computes = 9900 iterations
+--Expected CPU time = 1.127232e-03 s
+--Expected GPU time = 1.263830e-04 s
+--Expected CPU-GPU trasnfer time = 1.056000e-02 s
+--Expected total time = 1.181362e-02 s
+i = 10200
+CPU computes = 10200 iterations and GPU computes = 9800 iterations
+--Expected CPU time = 1.138393e-03 s
+--Expected GPU time = 1.251064e-04 s
+--Expected CPU-GPU trasnfer time = 1.045333e-02 s
+--Expected total time = 1.171683e-02 s
+i = 10300
+CPU computes = 10300 iterations and GPU computes = 9700 iterations
+--Expected CPU time = 1.149554e-03 s
+--Expected GPU time = 1.238298e-04 s
+--Expected CPU-GPU trasnfer time = 1.034667e-02 s
+--Expected total time = 1.162005e-02 s
+i = 10400
+CPU computes = 10400 iterations and GPU computes = 9600 iterations
+--Expected CPU time = 1.160714e-03 s
+--Expected GPU time = 1.225532e-04 s
+--Expected CPU-GPU trasnfer time = 1.024000e-02 s
+--Expected total time = 1.152327e-02 s
+i = 10500
+CPU computes = 10500 iterations and GPU computes = 9500 iterations
+--Expected CPU time = 1.171875e-03 s
+--Expected GPU time = 1.212766e-04 s
+--Expected CPU-GPU trasnfer time = 1.013333e-02 s
+--Expected total time = 1.142648e-02 s
+i = 10600
+CPU computes = 10600 iterations and GPU computes = 9400 iterations
+--Expected CPU time = 1.183036e-03 s
+--Expected GPU time = 1.200000e-04 s
+--Expected CPU-GPU trasnfer time = 1.002667e-02 s
+--Expected total time = 1.132970e-02 s
+i = 10700
+CPU computes = 10700 iterations and GPU computes = 9300 iterations
+--Expected CPU time = 1.194196e-03 s
+--Expected GPU time = 1.187234e-04 s
+--Expected CPU-GPU trasnfer time = 9.920000e-03 s
+--Expected total time = 1.123292e-02 s
+i = 10800
+CPU computes = 10800 iterations and GPU computes = 9200 iterations
+--Expected CPU time = 1.205357e-03 s
+--Expected GPU time = 1.174468e-04 s
+--Expected CPU-GPU trasnfer time = 9.813333e-03 s
+--Expected total time = 1.113614e-02 s
+i = 10900
+CPU computes = 10900 iterations and GPU computes = 9100 iterations
+--Expected CPU time = 1.216518e-03 s
+--Expected GPU time = 1.161702e-04 s
+--Expected CPU-GPU trasnfer time = 9.706667e-03 s
+--Expected total time = 1.103935e-02 s
+i = 11000
+CPU computes = 11000 iterations and GPU computes = 9000 iterations
+--Expected CPU time = 1.227679e-03 s
+--Expected GPU time = 1.148936e-04 s
+--Expected CPU-GPU trasnfer time = 9.600000e-03 s
+--Expected total time = 1.094257e-02 s
+i = 11100
+CPU computes = 11100 iterations and GPU computes = 8900 iterations
+--Expected CPU time = 1.238839e-03 s
+--Expected GPU time = 1.136170e-04 s
+--Expected CPU-GPU trasnfer time = 9.493333e-03 s
+--Expected total time = 1.084579e-02 s
+i = 11200
+CPU computes = 11200 iterations and GPU computes = 8800 iterations
+--Expected CPU time = 1.250000e-03 s
+--Expected GPU time = 1.123404e-04 s
+--Expected CPU-GPU trasnfer time = 9.386667e-03 s
+--Expected total time = 1.074901e-02 s
+i = 11300
+CPU computes = 11300 iterations and GPU computes = 8700 iterations
+--Expected CPU time = 1.261161e-03 s
+--Expected GPU time = 1.110638e-04 s
+--Expected CPU-GPU trasnfer time = 9.280000e-03 s
+--Expected total time = 1.065222e-02 s
+i = 11400
+CPU computes = 11400 iterations and GPU computes = 8600 iterations
+--Expected CPU time = 1.272321e-03 s
+--Expected GPU time = 1.097872e-04 s
+--Expected CPU-GPU trasnfer time = 9.173333e-03 s
+--Expected total time = 1.055544e-02 s
+i = 11500
+CPU computes = 11500 iterations and GPU computes = 8500 iterations
+--Expected CPU time = 1.283482e-03 s
+--Expected GPU time = 1.085106e-04 s
+--Expected CPU-GPU trasnfer time = 9.066667e-03 s
+--Expected total time = 1.045866e-02 s
+i = 11600
+CPU computes = 11600 iterations and GPU computes = 8400 iterations
+--Expected CPU time = 1.294643e-03 s
+--Expected GPU time = 1.072340e-04 s
+--Expected CPU-GPU trasnfer time = 8.960000e-03 s
+--Expected total time = 1.036188e-02 s
+i = 11700
+CPU computes = 11700 iterations and GPU computes = 8300 iterations
+--Expected CPU time = 1.305804e-03 s
+--Expected GPU time = 1.059574e-04 s
+--Expected CPU-GPU trasnfer time = 8.853333e-03 s
+--Expected total time = 1.026509e-02 s
+i = 11800
+CPU computes = 11800 iterations and GPU computes = 8200 iterations
+--Expected CPU time = 1.316964e-03 s
+--Expected GPU time = 1.046809e-04 s
+--Expected CPU-GPU trasnfer time = 8.746667e-03 s
+--Expected total time = 1.016831e-02 s
+i = 11900
+CPU computes = 11900 iterations and GPU computes = 8100 iterations
+--Expected CPU time = 1.328125e-03 s
+--Expected GPU time = 1.034043e-04 s
+--Expected CPU-GPU trasnfer time = 8.640000e-03 s
+--Expected total time = 1.007153e-02 s
+i = 12000
+CPU computes = 12000 iterations and GPU computes = 8000 iterations
+--Expected CPU time = 1.339286e-03 s
+--Expected GPU time = 1.021277e-04 s
+--Expected CPU-GPU trasnfer time = 8.533333e-03 s
+--Expected total time = 9.974747e-03 s
+i = 12100
+CPU computes = 12100 iterations and GPU computes = 7900 iterations
+--Expected CPU time = 1.350446e-03 s
+--Expected GPU time = 1.008511e-04 s
+--Expected CPU-GPU trasnfer time = 8.426667e-03 s
+--Expected total time = 9.877964e-03 s
+i = 12200
+CPU computes = 12200 iterations and GPU computes = 7800 iterations
+--Expected CPU time = 1.361607e-03 s
+--Expected GPU time = 9.957447e-05 s
+--Expected CPU-GPU trasnfer time = 8.320000e-03 s
+--Expected total time = 9.781182e-03 s
+i = 12300
+CPU computes = 12300 iterations and GPU computes = 7700 iterations
+--Expected CPU time = 1.372768e-03 s
+--Expected GPU time = 9.829787e-05 s
+--Expected CPU-GPU trasnfer time = 8.213333e-03 s
+--Expected total time = 9.684399e-03 s
+i = 12400
+CPU computes = 12400 iterations and GPU computes = 7600 iterations
+--Expected CPU time = 1.383929e-03 s
+--Expected GPU time = 9.702128e-05 s
+--Expected CPU-GPU trasnfer time = 8.106667e-03 s
+--Expected total time = 9.587617e-03 s
+i = 12500
+CPU computes = 12500 iterations and GPU computes = 7500 iterations
+--Expected CPU time = 1.395089e-03 s
+--Expected GPU time = 9.574468e-05 s
+--Expected CPU-GPU trasnfer time = 8.000000e-03 s
+--Expected total time = 9.490834e-03 s
+i = 12600
+CPU computes = 12600 iterations and GPU computes = 7400 iterations
+--Expected CPU time = 1.406250e-03 s
+--Expected GPU time = 9.446809e-05 s
+--Expected CPU-GPU trasnfer time = 7.893333e-03 s
+--Expected total time = 9.394051e-03 s
+i = 12700
+CPU computes = 12700 iterations and GPU computes = 7300 iterations
+--Expected CPU time = 1.417411e-03 s
+--Expected GPU time = 9.319149e-05 s
+--Expected CPU-GPU trasnfer time = 7.786667e-03 s
+--Expected total time = 9.297269e-03 s
+i = 12800
+CPU computes = 12800 iterations and GPU computes = 7200 iterations
+--Expected CPU time = 1.428571e-03 s
+--Expected GPU time = 9.191489e-05 s
+--Expected CPU-GPU trasnfer time = 7.680000e-03 s
+--Expected total time = 9.200486e-03 s
+i = 12900
+CPU computes = 12900 iterations and GPU computes = 7100 iterations
+--Expected CPU time = 1.439732e-03 s
+--Expected GPU time = 9.063830e-05 s
+--Expected CPU-GPU trasnfer time = 7.573333e-03 s
+--Expected total time = 9.103704e-03 s
+i = 13000
+CPU computes = 13000 iterations and GPU computes = 7000 iterations
+--Expected CPU time = 1.450893e-03 s
+--Expected GPU time = 8.936170e-05 s
+--Expected CPU-GPU trasnfer time = 7.466667e-03 s
+--Expected total time = 9.006921e-03 s
+i = 13100
+CPU computes = 13100 iterations and GPU computes = 6900 iterations
+--Expected CPU time = 1.462054e-03 s
+--Expected GPU time = 8.808511e-05 s
+--Expected CPU-GPU trasnfer time = 7.360000e-03 s
+--Expected total time = 8.910139e-03 s
+i = 13200
+CPU computes = 13200 iterations and GPU computes = 6800 iterations
+--Expected CPU time = 1.473214e-03 s
+--Expected GPU time = 8.680851e-05 s
+--Expected CPU-GPU trasnfer time = 7.253333e-03 s
+--Expected total time = 8.813356e-03 s
+i = 13300
+CPU computes = 13300 iterations and GPU computes = 6700 iterations
+--Expected CPU time = 1.484375e-03 s
+--Expected GPU time = 8.553191e-05 s
+--Expected CPU-GPU trasnfer time = 7.146667e-03 s
+--Expected total time = 8.716574e-03 s
+i = 13400
+CPU computes = 13400 iterations and GPU computes = 6600 iterations
+--Expected CPU time = 1.495536e-03 s
+--Expected GPU time = 8.425532e-05 s
+--Expected CPU-GPU trasnfer time = 7.040000e-03 s
+--Expected total time = 8.619791e-03 s
+i = 13500
+CPU computes = 13500 iterations and GPU computes = 6500 iterations
+--Expected CPU time = 1.506696e-03 s
+--Expected GPU time = 8.297872e-05 s
+--Expected CPU-GPU trasnfer time = 6.933333e-03 s
+--Expected total time = 8.523008e-03 s
+i = 13600
+CPU computes = 13600 iterations and GPU computes = 6400 iterations
+--Expected CPU time = 1.517857e-03 s
+--Expected GPU time = 8.170213e-05 s
+--Expected CPU-GPU trasnfer time = 6.826667e-03 s
+--Expected total time = 8.426226e-03 s
+i = 13700
+CPU computes = 13700 iterations and GPU computes = 6300 iterations
+--Expected CPU time = 1.529018e-03 s
+--Expected GPU time = 8.042553e-05 s
+--Expected CPU-GPU trasnfer time = 6.720000e-03 s
+--Expected total time = 8.329443e-03 s
+i = 13800
+CPU computes = 13800 iterations and GPU computes = 6200 iterations
+--Expected CPU time = 1.540179e-03 s
+--Expected GPU time = 7.914894e-05 s
+--Expected CPU-GPU trasnfer time = 6.613333e-03 s
+--Expected total time = 8.232661e-03 s
+i = 13900
+CPU computes = 13900 iterations and GPU computes = 6100 iterations
+--Expected CPU time = 1.551339e-03 s
+--Expected GPU time = 7.787234e-05 s
+--Expected CPU-GPU trasnfer time = 6.506667e-03 s
+--Expected total time = 8.135878e-03 s
+i = 14000
+CPU computes = 14000 iterations and GPU computes = 6000 iterations
+--Expected CPU time = 1.562500e-03 s
+--Expected GPU time = 7.659574e-05 s
+--Expected CPU-GPU trasnfer time = 6.400000e-03 s
+--Expected total time = 8.039096e-03 s
+i = 14100
+CPU computes = 14100 iterations and GPU computes = 5900 iterations
+--Expected CPU time = 1.573661e-03 s
+--Expected GPU time = 7.531915e-05 s
+--Expected CPU-GPU trasnfer time = 6.293333e-03 s
+--Expected total time = 7.942313e-03 s
+i = 14200
+CPU computes = 14200 iterations and GPU computes = 5800 iterations
+--Expected CPU time = 1.584821e-03 s
+--Expected GPU time = 7.404255e-05 s
+--Expected CPU-GPU trasnfer time = 6.186667e-03 s
+--Expected total time = 7.845531e-03 s
+i = 14300
+CPU computes = 14300 iterations and GPU computes = 5700 iterations
+--Expected CPU time = 1.595982e-03 s
+--Expected GPU time = 7.276596e-05 s
+--Expected CPU-GPU trasnfer time = 6.080000e-03 s
+--Expected total time = 7.748748e-03 s
+i = 14400
+CPU computes = 14400 iterations and GPU computes = 5600 iterations
+--Expected CPU time = 1.607143e-03 s
+--Expected GPU time = 7.148936e-05 s
+--Expected CPU-GPU trasnfer time = 5.973333e-03 s
+--Expected total time = 7.651966e-03 s
+i = 14500
+CPU computes = 14500 iterations and GPU computes = 5500 iterations
+--Expected CPU time = 1.618304e-03 s
+--Expected GPU time = 7.021277e-05 s
+--Expected CPU-GPU trasnfer time = 5.866667e-03 s
+--Expected total time = 7.555183e-03 s
+i = 14600
+CPU computes = 14600 iterations and GPU computes = 5400 iterations
+--Expected CPU time = 1.629464e-03 s
+--Expected GPU time = 6.893617e-05 s
+--Expected CPU-GPU trasnfer time = 5.760000e-03 s
+--Expected total time = 7.458400e-03 s
+i = 14700
+CPU computes = 14700 iterations and GPU computes = 5300 iterations
+--Expected CPU time = 1.640625e-03 s
+--Expected GPU time = 6.765957e-05 s
+--Expected CPU-GPU trasnfer time = 5.653333e-03 s
+--Expected total time = 7.361618e-03 s
+i = 14800
+CPU computes = 14800 iterations and GPU computes = 5200 iterations
+--Expected CPU time = 1.651786e-03 s
+--Expected GPU time = 6.638298e-05 s
+--Expected CPU-GPU trasnfer time = 5.546667e-03 s
+--Expected total time = 7.264835e-03 s
+i = 14900
+CPU computes = 14900 iterations and GPU computes = 5100 iterations
+--Expected CPU time = 1.662946e-03 s
+--Expected GPU time = 6.510638e-05 s
+--Expected CPU-GPU trasnfer time = 5.440000e-03 s
+--Expected total time = 7.168053e-03 s
+i = 15000
+CPU computes = 15000 iterations and GPU computes = 5000 iterations
+--Expected CPU time = 1.674107e-03 s
+--Expected GPU time = 6.382979e-05 s
+--Expected CPU-GPU trasnfer time = 5.333333e-03 s
+--Expected total time = 7.071270e-03 s
+i = 15100
+CPU computes = 15100 iterations and GPU computes = 4900 iterations
+--Expected CPU time = 1.685268e-03 s
+--Expected GPU time = 6.255319e-05 s
+--Expected CPU-GPU trasnfer time = 5.226667e-03 s
+--Expected total time = 6.974488e-03 s
+i = 15200
+CPU computes = 15200 iterations and GPU computes = 4800 iterations
+--Expected CPU time = 1.696429e-03 s
+--Expected GPU time = 6.127660e-05 s
+--Expected CPU-GPU trasnfer time = 5.120000e-03 s
+--Expected total time = 6.877705e-03 s
+i = 15300
+CPU computes = 15300 iterations and GPU computes = 4700 iterations
+--Expected CPU time = 1.707589e-03 s
+--Expected GPU time = 6.000000e-05 s
+--Expected CPU-GPU trasnfer time = 5.013333e-03 s
+--Expected total time = 6.780923e-03 s
+i = 15400
+CPU computes = 15400 iterations and GPU computes = 4600 iterations
+--Expected CPU time = 1.718750e-03 s
+--Expected GPU time = 5.872340e-05 s
+--Expected CPU-GPU trasnfer time = 4.906667e-03 s
+--Expected total time = 6.684140e-03 s
+i = 15500
+CPU computes = 15500 iterations and GPU computes = 4500 iterations
+--Expected CPU time = 1.729911e-03 s
+--Expected GPU time = 5.744681e-05 s
+--Expected CPU-GPU trasnfer time = 4.800000e-03 s
+--Expected total time = 6.587358e-03 s
+i = 15600
+CPU computes = 15600 iterations and GPU computes = 4400 iterations
+--Expected CPU time = 1.741071e-03 s
+--Expected GPU time = 5.617021e-05 s
+--Expected CPU-GPU trasnfer time = 4.693333e-03 s
+--Expected total time = 6.490575e-03 s
+i = 15700
+CPU computes = 15700 iterations and GPU computes = 4300 iterations
+--Expected CPU time = 1.752232e-03 s
+--Expected GPU time = 5.489362e-05 s
+--Expected CPU-GPU trasnfer time = 4.586667e-03 s
+--Expected total time = 6.393792e-03 s
+i = 15800
+CPU computes = 15800 iterations and GPU computes = 4200 iterations
+--Expected CPU time = 1.763393e-03 s
+--Expected GPU time = 5.361702e-05 s
+--Expected CPU-GPU trasnfer time = 4.480000e-03 s
+--Expected total time = 6.297010e-03 s
+i = 15900
+CPU computes = 15900 iterations and GPU computes = 4100 iterations
+--Expected CPU time = 1.774554e-03 s
+--Expected GPU time = 5.234043e-05 s
+--Expected CPU-GPU trasnfer time = 4.373333e-03 s
+--Expected total time = 6.200227e-03 s
+i = 16000
+CPU computes = 16000 iterations and GPU computes = 4000 iterations
+--Expected CPU time = 1.785714e-03 s
+--Expected GPU time = 5.106383e-05 s
+--Expected CPU-GPU trasnfer time = 4.266667e-03 s
+--Expected total time = 6.103445e-03 s
+i = 16100
+CPU computes = 16100 iterations and GPU computes = 3900 iterations
+--Expected CPU time = 1.796875e-03 s
+--Expected GPU time = 4.978723e-05 s
+--Expected CPU-GPU trasnfer time = 4.160000e-03 s
+--Expected total time = 6.006662e-03 s
+i = 16200
+CPU computes = 16200 iterations and GPU computes = 3800 iterations
+--Expected CPU time = 1.808036e-03 s
+--Expected GPU time = 4.851064e-05 s
+--Expected CPU-GPU trasnfer time = 4.053333e-03 s
+--Expected total time = 5.909880e-03 s
+i = 16300
+CPU computes = 16300 iterations and GPU computes = 3700 iterations
+--Expected CPU time = 1.819196e-03 s
+--Expected GPU time = 4.723404e-05 s
+--Expected CPU-GPU trasnfer time = 3.946667e-03 s
+--Expected total time = 5.813097e-03 s
+i = 16400
+CPU computes = 16400 iterations and GPU computes = 3600 iterations
+--Expected CPU time = 1.830357e-03 s
+--Expected GPU time = 4.595745e-05 s
+--Expected CPU-GPU trasnfer time = 3.840000e-03 s
+--Expected total time = 5.716315e-03 s
+i = 16500
+CPU computes = 16500 iterations and GPU computes = 3500 iterations
+--Expected CPU time = 1.841518e-03 s
+--Expected GPU time = 4.468085e-05 s
+--Expected CPU-GPU trasnfer time = 3.733333e-03 s
+--Expected total time = 5.619532e-03 s
+i = 16600
+CPU computes = 16600 iterations and GPU computes = 3400 iterations
+--Expected CPU time = 1.852679e-03 s
+--Expected GPU time = 4.340426e-05 s
+--Expected CPU-GPU trasnfer time = 3.626667e-03 s
+--Expected total time = 5.522749e-03 s
+i = 16700
+CPU computes = 16700 iterations and GPU computes = 3300 iterations
+--Expected CPU time = 1.863839e-03 s
+--Expected GPU time = 4.212766e-05 s
+--Expected CPU-GPU trasnfer time = 3.520000e-03 s
+--Expected total time = 5.425967e-03 s
+i = 16800
+CPU computes = 16800 iterations and GPU computes = 3200 iterations
+--Expected CPU time = 1.875000e-03 s
+--Expected GPU time = 4.085106e-05 s
+--Expected CPU-GPU trasnfer time = 3.413333e-03 s
+--Expected total time = 5.329184e-03 s
+i = 16900
+CPU computes = 16900 iterations and GPU computes = 3100 iterations
+--Expected CPU time = 1.886161e-03 s
+--Expected GPU time = 3.957447e-05 s
+--Expected CPU-GPU trasnfer time = 3.306667e-03 s
+--Expected total time = 5.232402e-03 s
+i = 17000
+CPU computes = 17000 iterations and GPU computes = 3000 iterations
+--Expected CPU time = 1.897321e-03 s
+--Expected GPU time = 3.829787e-05 s
+--Expected CPU-GPU trasnfer time = 3.200000e-03 s
+--Expected total time = 5.135619e-03 s
+i = 17100
+CPU computes = 17100 iterations and GPU computes = 2900 iterations
+--Expected CPU time = 1.908482e-03 s
+--Expected GPU time = 3.702128e-05 s
+--Expected CPU-GPU trasnfer time = 3.093333e-03 s
+--Expected total time = 5.038837e-03 s
+i = 17200
+CPU computes = 17200 iterations and GPU computes = 2800 iterations
+--Expected CPU time = 1.919643e-03 s
+--Expected GPU time = 3.574468e-05 s
+--Expected CPU-GPU trasnfer time = 2.986667e-03 s
+--Expected total time = 4.942054e-03 s
+i = 17300
+CPU computes = 17300 iterations and GPU computes = 2700 iterations
+--Expected CPU time = 1.930804e-03 s
+--Expected GPU time = 3.446809e-05 s
+--Expected CPU-GPU trasnfer time = 2.880000e-03 s
+--Expected total time = 4.845272e-03 s
+i = 17400
+CPU computes = 17400 iterations and GPU computes = 2600 iterations
+--Expected CPU time = 1.941964e-03 s
+--Expected GPU time = 3.319149e-05 s
+--Expected CPU-GPU trasnfer time = 2.773333e-03 s
+--Expected total time = 4.748489e-03 s
+i = 17500
+CPU computes = 17500 iterations and GPU computes = 2500 iterations
+--Expected CPU time = 1.953125e-03 s
+--Expected GPU time = 3.191489e-05 s
+--Expected CPU-GPU trasnfer time = 2.666667e-03 s
+--Expected total time = 4.651707e-03 s
+i = 17600
+CPU computes = 17600 iterations and GPU computes = 2400 iterations
+--Expected CPU time = 1.964286e-03 s
+--Expected GPU time = 3.063830e-05 s
+--Expected CPU-GPU trasnfer time = 2.560000e-03 s
+--Expected total time = 4.554924e-03 s
+i = 17700
+CPU computes = 17700 iterations and GPU computes = 2300 iterations
+--Expected CPU time = 1.975446e-03 s
+--Expected GPU time = 2.936170e-05 s
+--Expected CPU-GPU trasnfer time = 2.453333e-03 s
+--Expected total time = 4.458141e-03 s
+i = 17800
+CPU computes = 17800 iterations and GPU computes = 2200 iterations
+--Expected CPU time = 1.986607e-03 s
+--Expected GPU time = 2.808511e-05 s
+--Expected CPU-GPU trasnfer time = 2.346667e-03 s
+--Expected total time = 4.361359e-03 s
+i = 17900
+CPU computes = 17900 iterations and GPU computes = 2100 iterations
+--Expected CPU time = 1.997768e-03 s
+--Expected GPU time = 2.680851e-05 s
+--Expected CPU-GPU trasnfer time = 2.240000e-03 s
+--Expected total time = 4.264576e-03 s
+i = 18000
+CPU computes = 18000 iterations and GPU computes = 2000 iterations
+--Expected CPU time = 2.008929e-03 s
+--Expected GPU time = 2.553191e-05 s
+--Expected CPU-GPU trasnfer time = 2.133333e-03 s
+--Expected total time = 4.167794e-03 s
+i = 18100
+CPU computes = 18100 iterations and GPU computes = 1900 iterations
+--Expected CPU time = 2.020089e-03 s
+--Expected GPU time = 2.425532e-05 s
+--Expected CPU-GPU trasnfer time = 2.026667e-03 s
+--Expected total time = 4.071011e-03 s
+i = 18200
+CPU computes = 18200 iterations and GPU computes = 1800 iterations
+--Expected CPU time = 2.031250e-03 s
+--Expected GPU time = 2.297872e-05 s
+--Expected CPU-GPU trasnfer time = 1.920000e-03 s
+--Expected total time = 3.974229e-03 s
+i = 18300
+CPU computes = 18300 iterations and GPU computes = 1700 iterations
+--Expected CPU time = 2.042411e-03 s
+--Expected GPU time = 2.170213e-05 s
+--Expected CPU-GPU trasnfer time = 1.813333e-03 s
+--Expected total time = 3.877446e-03 s
+i = 18400
+CPU computes = 18400 iterations and GPU computes = 1600 iterations
+--Expected CPU time = 2.053571e-03 s
+--Expected GPU time = 2.042553e-05 s
+--Expected CPU-GPU trasnfer time = 1.706667e-03 s
+--Expected total time = 3.780664e-03 s
+i = 18500
+CPU computes = 18500 iterations and GPU computes = 1500 iterations
+--Expected CPU time = 2.064732e-03 s
+--Expected GPU time = 1.914894e-05 s
+--Expected CPU-GPU trasnfer time = 1.600000e-03 s
+--Expected total time = 3.683881e-03 s
+i = 18600
+CPU computes = 18600 iterations and GPU computes = 1400 iterations
+--Expected CPU time = 2.075893e-03 s
+--Expected GPU time = 1.787234e-05 s
+--Expected CPU-GPU trasnfer time = 1.493333e-03 s
+--Expected total time = 3.587099e-03 s
+i = 18700
+CPU computes = 18700 iterations and GPU computes = 1300 iterations
+--Expected CPU time = 2.087054e-03 s
+--Expected GPU time = 1.659574e-05 s
+--Expected CPU-GPU trasnfer time = 1.386667e-03 s
+--Expected total time = 3.490316e-03 s
+i = 18800
+CPU computes = 18800 iterations and GPU computes = 1200 iterations
+--Expected CPU time = 2.098214e-03 s
+--Expected GPU time = 1.531915e-05 s
+--Expected CPU-GPU trasnfer time = 1.280000e-03 s
+--Expected total time = 3.393533e-03 s
+i = 18900
+CPU computes = 18900 iterations and GPU computes = 1100 iterations
+--Expected CPU time = 2.109375e-03 s
+--Expected GPU time = 1.404255e-05 s
+--Expected CPU-GPU trasnfer time = 1.173333e-03 s
+--Expected total time = 3.296751e-03 s
+i = 19000
+CPU computes = 19000 iterations and GPU computes = 1000 iterations
+--Expected CPU time = 2.120536e-03 s
+--Expected GPU time = 1.276596e-05 s
+--Expected CPU-GPU trasnfer time = 1.066667e-03 s
+--Expected total time = 3.199968e-03 s
+i = 19100
+CPU computes = 19100 iterations and GPU computes = 900 iterations
+--Expected CPU time = 2.131696e-03 s
+--Expected GPU time = 1.148936e-05 s
+--Expected CPU-GPU trasnfer time = 9.600000e-04 s
+--Expected total time = 3.103186e-03 s
+i = 19200
+CPU computes = 19200 iterations and GPU computes = 800 iterations
+--Expected CPU time = 2.142857e-03 s
+--Expected GPU time = 1.021277e-05 s
+--Expected CPU-GPU trasnfer time = 8.533333e-04 s
+--Expected total time = 3.006403e-03 s
+i = 19300
+CPU computes = 19300 iterations and GPU computes = 700 iterations
+--Expected CPU time = 2.154018e-03 s
+--Expected GPU time = 8.936170e-06 s
+--Expected CPU-GPU trasnfer time = 7.466667e-04 s
+--Expected total time = 2.909621e-03 s
+i = 19400
+CPU computes = 19400 iterations and GPU computes = 600 iterations
+--Expected CPU time = 2.165179e-03 s
+--Expected GPU time = 7.659574e-06 s
+--Expected CPU-GPU trasnfer time = 6.400000e-04 s
+--Expected total time = 2.812838e-03 s
+i = 19500
+CPU computes = 19500 iterations and GPU computes = 500 iterations
+--Expected CPU time = 2.176339e-03 s
+--Expected GPU time = 6.382979e-06 s
+--Expected CPU-GPU trasnfer time = 5.333333e-04 s
+--Expected total time = 2.716056e-03 s
+i = 19600
+CPU computes = 19600 iterations and GPU computes = 400 iterations
+--Expected CPU time = 2.187500e-03 s
+--Expected GPU time = 5.106383e-06 s
+--Expected CPU-GPU trasnfer time = 4.266667e-04 s
+--Expected total time = 2.619273e-03 s
+i = 19700
+CPU computes = 19700 iterations and GPU computes = 300 iterations
+--Expected CPU time = 2.198661e-03 s
+--Expected GPU time = 3.829787e-06 s
+--Expected CPU-GPU trasnfer time = 3.200000e-04 s
+--Expected total time = 2.522491e-03 s
+i = 19800
+CPU computes = 19800 iterations and GPU computes = 200 iterations
+--Expected CPU time = 2.209821e-03 s
+--Expected GPU time = 2.553191e-06 s
+--Expected CPU-GPU trasnfer time = 2.133333e-04 s
+--Expected total time = 2.425708e-03 s
+i = 19900
+CPU computes = 19900 iterations and GPU computes = 100 iterations
+--Expected CPU time = 2.220982e-03 s
+--Expected GPU time = 1.276596e-06 s
+--Expected CPU-GPU trasnfer time = 1.066667e-04 s
+--Expected total time = 2.328925e-03 s
+Index returned = 9
+Hello from Parallel from het auto 1
+Using omp taget parallel for
+Last iter = 5000000
+Hey I am the OpenMP thread = 1 running
+Hey I am the OpenMP thread = 0 running
+array_gpu[0] = 1.000000e+02, array_gpu[Nx-1] = 1.000000e+02
+Nx = 5000000, problem( 40 MB ) time( 0.0747737 s ) ttime( 0.074764 s ) bandwidth( 0.534948 GB/s )

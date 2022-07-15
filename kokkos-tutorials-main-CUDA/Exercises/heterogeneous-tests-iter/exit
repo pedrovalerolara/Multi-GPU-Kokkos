@@ -1,0 +1,43 @@
+time iter seq ( 0.156035 s ) ttime iter seq ( 1.560280e-01 s )
+time iter seq ( 0.136301 s ) ttime iter seq ( 1.363000e-01 s )
+time iter seq ( 0.136027 s ) ttime iter seq ( 1.360260e-01 s )
+time iter seq ( 0.137572 s ) ttime iter seq ( 1.375700e-01 s )
+time iter seq ( 0.131979 s ) ttime iter seq ( 1.319780e-01 s )
+time iter seq ( 0.114317 s ) ttime iter seq ( 1.143150e-01 s )
+time iter seq ( 0.105531 s ) ttime iter seq ( 1.055310e-01 s )
+time iter seq ( 0.10542 s ) ttime iter seq ( 1.054190e-01 s )
+time iter seq ( 0.105491 s ) ttime iter seq ( 1.054900e-01 s )
+time iter seq ( 0.105421 s ) ttime iter seq ( 1.054200e-01 s )
+ind = 1026
+time gpu( 1.168720e-01 s )
+time iter het ( 0.11688 s ) ttime iter het ( 1.168790e-01 s )
+ind = 1026
+time gpu( 1.142220e-01 s )
+time iter het ( 0.114227 s ) ttime iter het ( 1.142270e-01 s )
+ind = 1026
+time gpu( 1.147460e-01 s )
+time iter het ( 0.114761 s ) ttime iter het ( 1.147580e-01 s )
+ind = 1026
+time gpu( 1.142580e-01 s )
+time iter het ( 0.114264 s ) ttime iter het ( 1.142630e-01 s )
+ind = 1026
+time gpu( 1.144510e-01 s )
+time iter het ( 0.114456 s ) ttime iter het ( 1.144560e-01 s )
+ind = 1026
+time gpu( 1.145470e-01 s )
+time iter het ( 0.114557 s ) ttime iter het ( 1.145570e-01 s )
+ind = 1026
+time gpu( 1.144730e-01 s )
+time iter het ( 0.114479 s ) ttime iter het ( 1.144780e-01 s )
+ind = 1026
+time gpu( 1.142430e-01 s )
+time iter het ( 0.114247 s ) ttime iter het ( 1.142470e-01 s )
+ind = 1026
+time gpu( 1.143940e-01 s )
+time iter het ( 0.114401 s ) ttime iter het ( 1.144000e-01 s )
+ind = 1026
+time gpu( 1.143020e-01 s )
+time iter het ( 0.114308 s ) ttime iter het ( 1.143080e-01 s )
+Hey
+Heyy
+Heyyy

@@ -1,0 +1,34 @@
+Thu Jul 22 11:37:18 EDT 2021
+Thu Jul 22 11:37:18 EDT 2021
+AXPY time single gpu ( 4.713000e-04 s )
+AXPY time multi gpu ( 2.497000e-04 s )
+Num dev used = 2
+AXPY time multi gpu auto ( 2.483000e-04 s )
+Thu Jul 22 11:37:19 EDT 2021
+Thu Jul 22 11:37:19 EDT 2021
+AXPY time single gpu ( 4.706000e-04 s )
+AXPY time multi gpu ( 1.408000e-04 s )
+Num dev used = 4
+AXPY time multi gpu auto ( 1.411000e-04 s )
+Thu Jul 22 11:37:21 EDT 2021
+Thu Jul 22 11:37:21 EDT 2021
+AXPY time single gpu ( 4.706000e-04 s )
+AXPY time multi gpu ( 1.073000e-04 s )
+Num dev used = 6
+AXPY time multi gpu auto ( 1.095000e-04 s )
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 1186220: <CFD136Pedro> in cluster <summit> Done
+
+Job <CFD136Pedro> was submitted from host <login5> by user <pvalero> in cluster <summit> at Thu Jul 22 11:36:39 2021
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <pvalero> in cluster <summit> at Thu Jul 22 11:37:05 2021
+                            <42*h31n09>
+</ccs/home/pvalero> was used as the home directory.
+</ccs/home/pvalero/kokkos-multigpu-backend/kokkos-tutorials-main/Exercises/multigpu-test-double> was used as the working directory.
+Started at Thu Jul 22 11:37:05 2021
+Terminated at Thu Jul 22 11:37:23 2021
+Results reported at Thu Jul 22 11:37:23 2021
+
+The output (if any) is above this job summary.
+

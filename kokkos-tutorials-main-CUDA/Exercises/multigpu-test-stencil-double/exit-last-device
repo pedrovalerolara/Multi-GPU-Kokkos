@@ -1,0 +1,26 @@
+axpy time multi gpu ( 5.050000e-06 s )
+Thu Jul  8 16:04:16 EDT 2021
+Thu Jul  8 16:04:16 EDT 2021
+Dev id = 1, nn = 257, Compute: elemen N-2 = 2.00, element N-1 = 333.00
+Dev id = 1, nn = 257, Compute: element 0 = 2.00 element 1 = 2.00
+axpy time multi gpu ( 1.795000e-05 s )
+Thu Jul  8 16:04:17 EDT 2021
+Thu Jul  8 16:04:17 EDT 2021
+Thu Jul  8 16:04:17 EDT 2021
+Thu Jul  8 16:04:17 EDT 2021
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch3>
+Subject: Job 1140805: <CFD136Pedro> in cluster <summit> Done
+
+Job <CFD136Pedro> was submitted from host <login5> by user <pvalero> in cluster <summit> at Thu Jul  8 16:03:36 2021
+Job was executed on host(s) <1*batch3>, in queue <batch>, as user <pvalero> in cluster <summit> at Thu Jul  8 16:04:02 2021
+                            <42*g23n10>
+</ccs/home/pvalero> was used as the home directory.
+</ccs/home/pvalero/kokkos-multigpu-backend/kokkos-tutorials-main/Exercises/multigpu-test-stencil> was used as the working directory.
+Started at Thu Jul  8 16:04:02 2021
+Terminated at Thu Jul  8 16:04:18 2021
+Results reported at Thu Jul  8 16:04:18 2021
+
+The output (if any) is above this job summary.
+

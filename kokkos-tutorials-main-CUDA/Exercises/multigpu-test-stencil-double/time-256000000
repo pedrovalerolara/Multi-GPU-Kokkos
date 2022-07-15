@@ -1,0 +1,40 @@
+Wed Jul 28 11:56:22 EDT 2021
+Wed Jul 28 11:56:22 EDT 2021
+Stencil time single gpu ( 5.754600e-03 s )
+Stencil time multi gpu ( 2.579700e-03 s )
+Stencil time multi gpu included ghost exchange ( 2.706700e-03 s )
+Num dev used = 2
+Stencil time multi gpu auto ( 2.580900e-03 s )
+Stencil time multi gpu auto included ghost exchange ( 2.707600e-03 s )
+Wed Jul 28 11:56:24 EDT 2021
+Wed Jul 28 11:56:24 EDT 2021
+Stencil time single gpu ( 5.665300e-03 s )
+Stencil time multi gpu ( 1.305000e-03 s )
+Stencil time multi gpu included ghost exchange ( 1.549600e-03 s )
+Num dev used = 4
+Stencil time multi gpu auto ( 1.305000e-03 s )
+Stencil time multi gpu auto included ghost exchange ( 1.549000e-03 s )
+Wed Jul 28 11:56:26 EDT 2021
+Wed Jul 28 11:56:26 EDT 2021
+Stencil time single gpu ( 5.664700e-03 s )
+Stencil time multi gpu ( 9.014000e-04 s )
+Stencil time multi gpu included ghost exchange ( 1.237100e-03 s )
+Num dev used = 6
+Stencil time multi gpu auto ( 8.953000e-04 s )
+Stencil time multi gpu auto included ghost exchange ( 1.214800e-03 s )
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 1214602: <CFD136Pedro> in cluster <summit> Done
+
+Job <CFD136Pedro> was submitted from host <login3> by user <pvalero> in cluster <summit> at Wed Jul 28 11:55:53 2021
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <pvalero> in cluster <summit> at Wed Jul 28 11:56:10 2021
+                            <42*g30n06>
+</ccs/home/pvalero> was used as the home directory.
+</ccs/home/pvalero/kokkos-multigpu-backend/kokkos-tutorials-main/Exercises/multigpu-test-stencil-double> was used as the working directory.
+Started at Wed Jul 28 11:56:10 2021
+Terminated at Wed Jul 28 11:56:28 2021
+Results reported at Wed Jul 28 11:56:28 2021
+
+The output (if any) is above this job summary.
+

@@ -1,0 +1,42 @@
+Num devices = 1, Num devices used 1
+Num devices used = 1
+axpy time single gpu ( 1.575000e-05 s )
+axpy time multi gpu ( 1.805000e-05 s )
+axpy time multi gpu auto ( 1.785000e-05 s )
+Mon Jun 28 16:07:55 EDT 2021
+Mon Jun 28 16:07:55 EDT 2021
+Num devices = 2, Num devices used 1
+Num devices used = 1
+axpy time single gpu ( 1.575000e-05 s )
+axpy time multi gpu ( 1.880000e-05 s )
+axpy time multi gpu auto ( 1.760000e-05 s )
+Mon Jun 28 16:07:56 EDT 2021
+Mon Jun 28 16:07:56 EDT 2021
+Num devices = 4, Num devices used 1
+Num devices used = 1
+axpy time single gpu ( 1.525000e-05 s )
+axpy time multi gpu ( 2.290000e-05 s )
+axpy time multi gpu auto ( 1.770000e-05 s )
+Mon Jun 28 16:07:57 EDT 2021
+Mon Jun 28 16:07:57 EDT 2021
+Num devices = 6, Num devices used 1
+Num devices used = 1
+axpy time single gpu ( 1.535000e-05 s )
+axpy time multi gpu ( 3.235000e-05 s )
+axpy time multi gpu auto ( 1.765000e-05 s )
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 1118770: <CFD136Pedro> in cluster <summit> Done
+
+Job <CFD136Pedro> was submitted from host <login3> by user <pvalero> in cluster <summit> at Mon Jun 28 16:06:58 2021
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <pvalero> in cluster <summit> at Mon Jun 28 16:07:40 2021
+                            <42*a36n13>
+</ccs/home/pvalero> was used as the home directory.
+</ccs/home/pvalero/kokkos-multigpu-backend/kokkos-tutorials-main/Exercises/multigpu-test-auto> was used as the working directory.
+Started at Mon Jun 28 16:07:40 2021
+Terminated at Mon Jun 28 16:07:59 2021
+Results reported at Mon Jun 28 16:07:59 2021
+
+The output (if any) is above this job summary.
+

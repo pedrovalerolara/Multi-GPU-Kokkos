@@ -1,0 +1,74 @@
+Hey I am here
+Allocating memory (8320 bytes) in GPU
+Hey I am here
+Allocating memory (65664 bytes) in GPU
+Hey I am here
+Allocating memory (20612 bytes) in GPU
+running allocate tracker
+Hey I am here
+Allocating memory (512000128 bytes) in GPU
+running allocate tracker
+Hey I am here
+Allocating memory (512000128 bytes) in GPU
+running allocate tracked multi dev
+Num devices = 1 = 1
+time single gpu ( 3.021000e-03 s )
+time single gpu ( 2.995000e-03 s )
+time single gpu ( 2.996000e-03 s )
+time single gpu ( 2.997000e-03 s )
+time single gpu ( 2.998000e-03 s )
+time single gpu ( 2.997000e-03 s )
+time single gpu ( 2.996000e-03 s )
+time single gpu ( 2.996000e-03 s )
+time single gpu ( 2.997000e-03 s )
+time single gpu ( 2.996000e-03 s )
+time single gpu ( 2.996000e-03 s )
+time single gpu ( 2.996000e-03 s )
+time single gpu ( 2.996000e-03 s )
+time single gpu ( 2.996000e-03 s )
+time single gpu ( 2.996000e-03 s )
+time single gpu ( 2.994000e-03 s )
+time single gpu ( 2.971000e-03 s )
+time single gpu ( 2.841000e-03 s )
+time single gpu ( 2.841000e-03 s )
+time single gpu ( 2.840000e-03 s )
+time gpu ( 5.960000e-04 s )
+time multi gpu ( 6.030000e-04 s )
+time gpu ( 5.870000e-04 s )
+time multi gpu ( 5.950000e-04 s )
+time gpu ( 5.880000e-04 s )
+time multi gpu ( 5.940000e-04 s )
+time gpu ( 5.870000e-04 s )
+time multi gpu ( 5.940000e-04 s )
+time gpu ( 5.890000e-04 s )
+time multi gpu ( 5.950000e-04 s )
+time gpu ( 5.880000e-04 s )
+time multi gpu ( 5.940000e-04 s )
+time gpu ( 5.880000e-04 s )
+time multi gpu ( 5.940000e-04 s )
+time gpu ( 5.870000e-04 s )
+time multi gpu ( 5.930000e-04 s )
+time gpu ( 5.870000e-04 s )
+time multi gpu ( 5.930000e-04 s )
+time gpu ( 5.870000e-04 s )
+time multi gpu ( 5.940000e-04 s )
+time gpu ( 5.870000e-04 s )
+time multi gpu ( 5.940000e-04 s )
+time gpu ( 5.870000e-04 s )
+time multi gpu ( 5.940000e-04 s )
+time gpu ( 5.870000e-04 s )
+time multi gpu ( 5.940000e-04 s )
+time gpu ( 5.870000e-04 s )
+time multi gpu ( 5.930000e-04 s )
+time gpu ( 5.890000e-04 s )
+time multi gpu ( 5.990000e-04 s )
+time gpu ( 5.930000e-04 s )
+time multi gpu ( 5.990000e-04 s )
+time gpu ( 5.890000e-04 s )
+time multi gpu ( 5.950000e-04 s )
+time gpu ( 5.880000e-04 s )
+time multi gpu ( 5.940000e-04 s )
+time gpu ( 5.870000e-04 s )
+time multi gpu ( 5.930000e-04 s )
+time gpu ( 5.880000e-04 s )
+time multi gpu ( 5.950000e-04 s )

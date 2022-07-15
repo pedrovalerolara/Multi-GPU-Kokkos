@@ -1,0 +1,38 @@
+Num devices used = 1
+stencil single gpu ( 1.335350e-03 s )
+stencil multi gpu ( 5.635000e-04 s )
+stencil multi gpu auto ( 5.634500e-04 s )
+Mon Jul 12 13:16:12 EDT 2021
+Mon Jul 12 13:16:12 EDT 2021
+Num devices used = 2
+stencil single gpu ( 1.325000e-03 s )
+stencil multi gpu ( 2.871500e-04 s )
+stencil multi gpu auto ( 2.861500e-04 s )
+Mon Jul 12 13:16:13 EDT 2021
+Mon Jul 12 13:16:13 EDT 2021
+Num devices used = 4
+stencil single gpu ( 1.324850e-03 s )
+stencil multi gpu ( 1.618500e-04 s )
+stencil multi gpu auto ( 1.631000e-04 s )
+Mon Jul 12 13:16:14 EDT 2021
+Mon Jul 12 13:16:14 EDT 2021
+Num devices used = 6
+stencil single gpu ( 1.325250e-03 s )
+stencil multi gpu ( 1.370500e-04 s )
+stencil multi gpu auto ( 1.351000e-04 s )
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch4>
+Subject: Job 1147716: <CFD136Pedro> in cluster <summit> Done
+
+Job <CFD136Pedro> was submitted from host <login1> by user <pvalero> in cluster <summit> at Mon Jul 12 13:15:37 2021
+Job was executed on host(s) <1*batch4>, in queue <batch>, as user <pvalero> in cluster <summit> at Mon Jul 12 13:15:56 2021
+                            <42*c05n04>
+</ccs/home/pvalero> was used as the home directory.
+</ccs/home/pvalero/kokkos-multigpu-backend/kokkos-tutorials-main/Exercises/multigpu-test-stencil> was used as the working directory.
+Started at Mon Jul 12 13:15:56 2021
+Terminated at Mon Jul 12 13:16:17 2021
+Results reported at Mon Jul 12 13:16:17 2021
+
+The output (if any) is above this job summary.
+

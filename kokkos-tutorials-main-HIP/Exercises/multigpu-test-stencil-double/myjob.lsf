@@ -1,0 +1,20 @@
+#!/bin/bash
+# Begin LSF Directives
+#BSUB -P CFD136
+#BSUB -W 0:20
+#BSUB -nnodes 1
+#BSUB -alloc_flags gpumps
+#BSUB -J CFD136Pedro
+#BSUB -o CFD136Pedro.%J
+#BSUB -e CFD136Pedro.%J
+
+jsrun --nrs 1 --tasks_per_rs 1 --cpu_per_rs 21 --rs_per_host 1 --gpu_per_rs 1 --latency_priority GPU-CPU --launch_distribution plane:1 --bind rs --smpiargs="off" ./MULTIGPU.cuda
+date
+date
+jsrun --nrs 1 --tasks_per_rs 1 --cpu_per_rs 21 --rs_per_host 1 --gpu_per_rs 2 --latency_priority GPU-CPU --launch_distribution plane:1 --bind rs --smpiargs="off" ./MULTIGPU.cuda
+date
+date
+jsrun --nrs 1 --tasks_per_rs 1 --cpu_per_rs 21 --rs_per_host 1 --gpu_per_rs 4 --latency_priority GPU-CPU --launch_distribution plane:1 --bind rs --smpiargs="off" ./MULTIGPU.cuda
+date
+date
+jsrun --nrs 1 --tasks_per_rs 1 --cpu_per_rs 21 --rs_per_host 1 --gpu_per_rs 6 --latency_priority GPU-CPU --launch_distribution plane:1 --bind rs --smpiargs="off" ./MULTIGPU.cuda
