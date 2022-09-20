@@ -1,0 +1,24 @@
+#!/bin/bash
+# Begin LSF Directives
+#BSUB -P CSC383
+#BSUB -W 0:20
+#BSUB -nnodes 1
+#BSUB -alloc_flags gpumps
+#BSUB -J MultiGPU-Kokkos-Pedro
+#BSUB -o MultiGPU-Kokkos-Pedro.%J
+#BSUB -e MultiGPU-Kokkos-Pedro.%J
+
+#jsrun --nrs 1 --tasks_per_rs 1 --cpu_per_rs 21 --rs_per_host 1 --gpu_per_rs 1 --latency_priority GPU-CPU --launch_distribution plane:1 --bind rs --smpiargs="off" ./MULTIGPU.cuda
+date
+date
+#jsrun --nrs 1 --tasks_per_rs 6 --cpu_per_rs 4 --rs_per_host 1 --gpu_per_rs 1 --latency_priority GPU-CPU --launch_distribution plane:1 --bind rs --smpiargs="off" ./MULTIGPU.cuda
+#jsrun --nrs 1 --tasks_per_rs 2 --cpu_per_rs 4 --rs_per_host 1 --gpu_per_rs 1 --latency_priority GPU-CPU --launch_distribution plane:1 --bind rs --smpiargs="-gpu" ./MULTIGPU.cuda
+jsrun --nrs 1 --tasks_per_rs 6 --cpu_per_rs 2 --rs_per_host 1 --gpu_per_rs 1 --latency_priority GPU-GPU --launch_distribution plane:1 --bind rs --smpiargs="-gpu" ./MULTIGPU.cuda
+#jsrun --nrs 1 --tasks_per_rs 6 --cpu_per_rs 2 --rs_per_host 1 --gpu_per_rs 1 --latency_priority GPU-GPU --smpiargs="-gpu" ./MULTIGPU.cuda
+#jsrun --nrs 1 --tasks_per_rs 2 --cpu_per_rs 4 --rs_per_host 1 --gpu_per_rs 1 ./MULTIGPU.cuda
+date
+date
+#jsrun --nrs 1 --tasks_per_rs 1 --cpu_per_rs 21 --rs_per_host 1 --gpu_per_rs 4 --latency_priority GPU-CPU --launch_distribution plane:1 --bind rs --smpiargs="off" ./MULTIGPU.cuda
+#date
+#date
+#jsrun --nrs 1 --tasks_per_rs 1 --cpu_per_rs 21 --rs_per_host 1 --gpu_per_rs 6 --latency_priority GPU-CPU --launch_distribution plane:1 --bind rs --smpiargs="off" ./MULTIGPU.cuda
